@@ -47,7 +47,7 @@ app.get('/Weather', (req,res) =>{
     }
     geocode(req.query.address, (error, {latitude, longitude, location}={})=>{
         if(error){
-            return res.render('404.hbs',{
+            return res.render('404',{
                 body: 'Error with page can not be found'
             })
 
