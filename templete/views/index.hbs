@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .design{
+                text-align: center;
+                background-color: hsla(50, 33%, 25%, .75);
+                color: azure;
+                padding: 1em;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <title>Home page in Express !!</title>
+        {{>header}}
+        <div class="design">
+            <H1 style="text-align: centre";>Find you location forcast below</H1>
+            <form >
+                <input type="text" id="forcast_form" style="cursor: default;">
+                <button>Submit</button>
+                <p id='msg-1'></p>
+                <p id='error-1'></p>
+            </form>        
+        </div>  
+        <script type='text/javascript' src='/scripts/app.js'> </script>
+    </body>
+</html>
