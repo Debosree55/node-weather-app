@@ -1,0 +1,28 @@
+{
+  "name": "wesbservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webService.js",
+  "scripts": {
+    "start": "node webService.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Debosree55/node-weather-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Debosree55/node-weather-app/issues"
+  },
+  "homepage": "https://github.com/Debosree55/node-weather-app#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "heroku": "^7.40.0",
+    "request": "^2.88.2",
+    "validator": "^13.0.0",
+    "yargs": "^15.3.1"
+  }
+}

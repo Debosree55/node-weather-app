@@ -5,6 +5,7 @@ const geocode=require('./src/utils/geocode')
 const forecast=require('./src/utils/forecast')
 
 const app=ex()
+const port=process.env.PORT || 8080
 
 const aboutDirctoryPath=path.join(__dirname, 'public/')
 const viewspath=path.join(__dirname, 'templete/views/')
@@ -84,7 +85,7 @@ app.get('*',(req,res) =>{
     })
 })
 
-app.listen(8080, ()=>
+app.listen(port, ()=>
 {
-    console.log('from port 8080 !!')
+    console.log('from port' +port + '!!')
 })
